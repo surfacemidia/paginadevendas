@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #99B8BF;
+    --cor0: #1875cc;
+    --cor0: #F2D2B6; 
+    --cor1: #F2E4D8;
+    --cor2: #F2D8D5;
+    --cor3: #BF5656;
+    --cor7: #E2E3C3;
+    --cor8: #1a1a1a;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+body {
+    font-family: 'lato', Arial, Helvetica, sans-serif;
+    background-color: #256bec;
+}
+
+@font-face {
+    font-family: 'lato';
+    src: url('fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+header {
+    background-image: url(multmidia/imagens/background/headerback.jpg);text-align: center;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-position: center top;
+
+}
+
+header h1 {
+    color: #1b1414;
+    font-size: 35px;
+    max-width: 850px;
+    margin: auto;
+    padding: 20px;
+    text-shadow: 1px 2px 50px #BF5656;
+}
+
+header h2 {
+    color:#1b1414;
+    font-size: 30px;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    text-shadow: 1px 2px 50px #ffffff;
+}
+
+header mark {
+    background-color: rgb(255, 217, 0);
+}
