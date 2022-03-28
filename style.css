@@ -56,3 +56,29 @@ header h2 {
 header mark {
     background-color: rgb(255, 217, 0);
 }
+
+footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    color: white;
+    padding: 20px;    
+}
+
+footer p {
+    margin: auto;
+    font-size: 13px;
+    padding: 3px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer a:visited {
+    color: #74b2ec;
+}
