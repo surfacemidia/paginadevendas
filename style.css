@@ -16,9 +16,9 @@
     padding: 0px;
 
 }
-body {
+html, body {
+    min-height: 100vh;
     font-family: 'lato', Arial, Helvetica, sans-serif;
-    background-color: #256bec;
 }
 
 @font-face {
@@ -73,6 +73,14 @@ main p {
     font-size: 15px;
 }
 
+main p.tree {
+    background-color: #353535bd;
+    max-width: 380px;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 section {
     padding: 35px;
 }
@@ -80,27 +88,29 @@ section {
 section.one {
     background-color: #BF5656;
     color: white;
+    margin: auto;
 }
 
 section.two {
-    background-color: #E2E3C3;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
 }
 
 section.tree {
-    background-color: #833636;
+    background-color: #99B8BF;
     background-image: url(multmidia/imagens/png/perfil1.png);
     background-repeat: no-repeat;
     background-position: center top;
+    color: white;
+    margin: auto;
 }
 
-
 table {
-    max-width: 1200px;
+    max-width: 1210px;
     text-align: center;
     margin: auto;
     border-collapse: collapse;
     padding: 10px;
-
 }
 
 tr.titulo {
@@ -115,9 +125,6 @@ tr.conteudo {
 td {
     border: 1px solid black;
     padding: 10px;
-}
-
-td.white {
 }
 
 footer {
